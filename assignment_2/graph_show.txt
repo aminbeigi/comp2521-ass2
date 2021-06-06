@@ -1,0 +1,44 @@
+GRAPH 1
+#vertices = 3
+Vertices:
+ Vertex  0
+  Outlinks: (v:  1, weight:  1) -> (v:  2, weight:  4) -> X
+  In-links: X
+
+ Vertex  1
+  Outlinks: (v:  2, weight:  2) -> X
+  In-links: (v:  0, weight:  1) -> X
+
+ Vertex  2
+  Outlinks: X
+  In-links: (v:  0, weight:  4) -> (v:  1, weight:  2) -> X
+  
+GRAPH 2
+#vertices = 3
+Vertices:
+ Vertex  0
+  Outlinks: (v:  1, weight:  2) -> X
+  In-links: (v:  1, weight:  5) -> X
+
+ Vertex  1
+  Outlinks: (v:  0, weight:  5) -> X
+  In-links: (v:  0, weight:  2) -> (v:  2, weight:  1) -> X
+
+ Vertex  2
+  Outlinks: (v:  1, weight:  1) -> X
+  In-links: X
+
+GRAPH 3
+#vertices = 3
+Vertices:
+ Vertex  0
+  Outlinks: (v:  2, weight:  5) -> X
+  In-links: X
+
+ Vertex  1
+  Outlinks: (v:  2, weight:  2) -> X
+  In-links: (v:  2, weight:  4) -> X
+
+ Vertex  2
+  Outlinks: (v:  1, weight:  4) -> X
+  In-links: (v:  0, weight:  5) -> (v:  1, weight:  2) -> X
